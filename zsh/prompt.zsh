@@ -2,6 +2,9 @@ autoload colors && colors
 # cheers, @ehrenmurdick
 # http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
 
+# DOTSYS : Not sure why, but this setting seems to be necessary for prompt
+setopt promptsubst
+
 if (( $+commands[git] ))
 then
   git="$commands[git]"
