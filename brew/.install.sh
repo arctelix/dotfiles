@@ -5,6 +5,8 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
+#DOTSYS: This script is no longer required since dotsys will install homebrew as required
+
 # Check for Homebrew
 if test ! $(which brew)
 then

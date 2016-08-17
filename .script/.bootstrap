@@ -2,6 +2,8 @@
 #
 # bootstrap installs things.
 
+#DOTSYS: This script is redundant
+
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd -P)
 
